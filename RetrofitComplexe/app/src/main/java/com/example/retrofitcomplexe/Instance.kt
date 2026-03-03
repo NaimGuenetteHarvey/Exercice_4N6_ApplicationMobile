@@ -1,11 +1,9 @@
-package ca.cem.composeretrofitbase.api
+package com.example.retrofitcomplexe
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.scalars.ScalarsConverterFactory
-import kotlin.apply
-import kotlin.jvm.java
 
 object RetrofitInstance {
     private const val BASE_URL = "https://fourn6-mobile-prof.onrender.com/"
